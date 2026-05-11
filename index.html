@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أبو محمد معلم دهانات وديكورات الطائف</title>
+<meta name="description" content="أبو محمد معلم دهانات وديكورات الطائف - خدمات دهانات، جبس بورد، ورق جدران، تشطيبات داخلية وخارجية بأعلى جودة وأفضل الأسعار">
+<meta name="keywords" content="دهانات الطائف, ديكورات الطائف, جبس بورد, ورق جدران, تشطيبات, معلم دهانات">
+<meta name="copyright" content="© 2026 جميع الحقوق محفوظة لأبو محمد معلم دهانات وديكورات الطائف">
+<meta name="author" content="أبو محمد معلم دهانات وديكورات الطائف">
+<meta name="robots" content="index, follow">
+
+<!-- خطوط Google -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<!-- أيقونات Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --primary: #c9a04e;
+  --primary-dark: #a8842f;
+  --dark: #1a1a1a;
+  --light: #f8f8f8;
+  --text: #333;
+  --white: #ffffff;
+  --shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--white);
+  overflow-x: hidden;
+}
+
+/* ====== شريط علوي ====== */
+.top-bar {
+  background: var(--dark);
+  color: var(--white);
+  padding: 8px 0;
+  font-size: 14px;
+}
+.top-bar .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.top-bar a { color: var(--primary); text-decoration: none; margin: 0 10px; }
+.top-bar i { margin-left: 5px; }
+
+/* ====== الحاوية ====== */
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+/* ====== الهيدر ====== */
+header {
+  background: var(--white);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.logo-icon {
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  box-shadow: 0 4px 15px rgba(201,160,78,0.4);
+}
+.logo-text h1 {
+  font-size: 18px;
+  color: var(--dark);
+  font-weight: 900;
+  margin: 0;
+  line-height: 1.2;
+}
+.logo-text span {
+  font-size: 12px;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+nav a {
+  color: var(--dark);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+  position: relative;
+}
+nav a:hover { color: var(--primary); }
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  transition: 0.3s;
+}
+nav a:hover::after { width: 100%; }
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--dark);
+}
+
+/* ====== Hero ====== */
+.hero {
+  background: linear-gradient(135deg, rgba(26,26,26,0.85), rgba(26,26,26,0.7)), 
+              url('assets/images/p3.jpg') center/cover;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+.hero-content { width: 100%; padding: 50px 20px; }
+.hero h2 {
+  font-size: 56px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  line-height: 1.2;
+  animation: fadeUp 1s ease;
+}
+.hero h2 span { color: var(--primary); }
+.hero p {
+  font-size: 20px;
+  max-width: 700px;
+  margin: 0 auto 35px;
+  animation: fadeUp 1.2s ease;
+}
+.btns {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  animation: fadeUp 1.4s ease;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+  border: none;
+}
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  box-shadow: 0 8px 20px rgba(201,160,78,0.4);
+}
+.btn-primary:hover {
+  background: var(--primary-dark);
+  transform: translateY(-3px);
+}
+.btn-outline {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+.btn-outline:hover {
+  background: white;
+  color: var(--dark);
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ====== العناوين ====== */
+.section { padding: 80px 0; }
+.section-title { text-align: center; margin-bottom: 60px; }
+.section-title h3 {
+  font-size: 36px;
+  color: var(--dark);
+  font-weight: 900;
+  margin-bottom: 15px;
+  position: relative;
+  display: inline-block;
+}
+.section-title h3::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  right: 50%;
+  transform: translateX(50%);
+  width: 70px;
+  height: 4px;
+  background: var(--primary);
+  border-radius: 2px;
+}
+.section-title p {
+  color: #777;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+/* ====== المميزات ====== */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+.feature-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: 0.4s;
+  border-top: 4px solid transparent;
+}
+.feature-card:hover {
+  transform: translateY(-10px);
+  border-top-color: var(--primary);
+}
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+.feature-card h4 { font-size: 20px; color: var(--dark); margin-bottom: 12px; }
+.feature-card p { color: #666; font-size: 15px; }
+
+/* ====== من نحن ====== */
+.about { background: var(--light); }
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+.about-img {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  height: 400px;
+  background: url('assets/images/p4.jpg') center/cover;
+}
+.about-text h3 {
+  font-size: 32px;
+  color: var(--dark);
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.about-text h3 span { color: var(--primary); }
+.about-text p { margin-bottom: 15px; color: #555; font-size: 16px; }
+.about-list { list-style: none; margin-top: 20px; }
+.about-list li {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+.about-list i { color: var(--primary); font-size: 18px; }
+
+/* ====== الخدمات ====== */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+.service-card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: 0.4s;
+  background: white;
+}
+.service-card:hover { transform: translateY(-8px); }
+.service-img {
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.service-img::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+}
+.service-body { padding: 25px; }
+.service-body h4 { font-size: 20px; color: var(--dark); margin-bottom: 10px; }
+.service-body p { color: #666; font-size: 14px; }
+
+/* ====== الفيديوهات ====== */
+.videos { background: linear-gradient(135deg, #f8f5ed, #fefbf3); }
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+.video-box {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: 0.3s;
+}
+.video-box:hover { transform: translateY(-5px); }
+.video-box video,
+.video-box iframe {
+  width: 100%;
+  height: 280px;
+  display: block;
+  border: 0;
+  background: #000;
+}
+.video-caption {
+  padding: 15px 20px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+/* ====== أرقام ====== */
+.stats {
+  background: linear-gradient(135deg, var(--dark), #2a2a2a);
+  color: white;
+}
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  text-align: center;
+}
+.stat-item { padding: 20px; }
+.stat-item i { font-size: 40px; color: var(--primary); margin-bottom: 15px; }
+.stat-item h4 { font-size: 42px; font-weight: 900; color: var(--primary); }
+.stat-item p { font-size: 16px; opacity: 0.9; margin-top: 8px; }
+
+/* ====== تواصل ====== */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.contact-info {
+  background: linear-gradient(135deg, var(--dark), #2a2a2a);
+  color: white;
+  padding: 40px;
+  border-radius: 15px;
+}
+.contact-info h3 { font-size: 26px; margin-bottom: 25px; color: var(--primary); }
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.contact-item i {
+  width: 45px;
+  height: 45px;
+  background: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.contact-item a { color: white; text-decoration: none; }
+.contact-form {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+}
+.contact-form h3 { font-size: 24px; margin-bottom: 25px; color: var(--dark); }
+.form-group { margin-bottom: 18px; }
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 14px 18px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 15px;
+  transition: 0.3s;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+.form-group textarea { resize: vertical; min-height: 120px; }
+
+/* ====== الفوتر ====== */
+footer {
+  background: var(--dark);
+  color: white;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+.social {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+.social a {
+  width: 45px;
+  height: 45px;
+  background: var(--primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.social a:hover { background: var(--primary-dark); transform: translateY(-3px); }
+.copyright {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  opacity: 0.92;
+  font-size: 14px;
+  line-height: 1.9;
+}
+.copyright strong { color: var(--primary); }
+.copyright .legal-note {
+  display: block;
+  margin-top: 8px;
+  font-size: 13px;
+  opacity: 0.88;
+}
+
+/* ====== زر واتساب عائم ====== */
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  width: 60px;
+  height: 60px;
+  background: #25D366;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  box-shadow: 0 5px 20px rgba(37,211,102,0.4);
+  z-index: 999;
+  text-decoration: none;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+/* ====== الاستجابة ====== */
+@media (max-width: 768px) {
+  .hero h2 { font-size: 36px; }
+  .hero p { font-size: 16px; }
+  .about-grid, .contact-grid { grid-template-columns: 1fr; }
+  nav ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background: white;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: var(--shadow);
+  }
+  nav ul.active { display: flex; }
+  .menu-toggle { display: block; }
+  .section-title h3 { font-size: 28px; }
+  .logo-text h1 { font-size: 15px; }
+}
+</style>
+</head>
+<body>
+
+<!-- شريط علوي -->
+<div class="top-bar">
+  <div class="container">
+    <div><i class="fas fa-phone"></i> <a href="tel:+966554374134">+966 55 437 4134</a></div>
+    <div><i class="fas fa-clock"></i> متاح يومياً من 8 صباحاً - 11 مساءً</div>
+  </div>
+</div>
+
+<!-- الهيدر -->
+<header>
+  <div class="container nav-wrap">
+    <div class="logo">
+      <div class="logo-icon"><i class="fas fa-paint-roller"></i></div>
+      <div class="logo-text">
+        <h1>أبو محمد</h1>
+        <span>معلم دهانات وديكورات الطائف</span>
+      </div>
+    </div>
+    <nav>
+      <ul id="navMenu">
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#about">من نحن</a></li>
+        <li><a href="#services">خدماتنا</a></li>
+        <li><a href="#videos">أعمالنا</a></li>
+        <li><a href="#contact">تواصل معنا</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle" onclick="document.getElementById('navMenu').classList.toggle('active')">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h2>أبو محمد <span>معلم دهانات وديكورات</span><br>في الطائف</h2>
+    <p>خبرة طويلة في الدهانات والتشطيبات والديكورات الداخلية والخارجية بأعلى جودة وأفضل الأسعار</p>
+    <div class="btns">
+      <a href="https://wa.me/966554374134?text=السلام عليكم، أود الاستفسار عن خدماتكم" class="btn btn-primary"><i class="fab fa-whatsapp"></i> تواصل معنا مباشرة</a>
+      <a href="tel:+966554374134" class="btn btn-outline"><i class="fas fa-phone"></i> اتصل الآن</a>
+    </div>
+  </div>
+</section>
+
+<!-- المميزات -->
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h3>لماذا تختارنا</h3>
+      <p>نقدم خدمات احترافية تجمع بين الجودة والإتقان</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-medal"></i></div>
+        <h4>جودة عالية</h4>
+        <p>نستخدم أفضل المواد وأحدث التقنيات لضمان جودة تدوم طويلاً ونتائج تليق بذوقك</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-lightbulb"></i></div>
+        <h4>أفكار إبداعية</h4>
+        <p>نقدم لك أفكاراً ديكورية مميزة تلبي احتياجاتك وتضيف لمسة جمالية فريدة</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-clock"></i></div>
+        <h4>الالتزام بالمواعيد</h4>
+        <p>نحرص على إنجاز العمل في الوقت المحدد مع الحفاظ على أعلى معايير الدقة</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-tags"></i></div>
+        <h4>أسعار مناسبة</h4>
+        <p>نقدم أفضل الأسعار في السوق مع ضمان جودة الخدمة والمواد المستخدمة</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- من نحن -->
+<section class="section about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img"></div>
+      <div class="about-text">
+        <h3>من <span>نحن</span></h3>
+        <p><strong>أبو محمد معلم دهانات وديكورات الطائف</strong> من المعلمين الرواد في مجال المقاولات والتشطيبات والديكورات بمدينة الطائف.</p>
+        <p>نمتلك خبرة طويلة في تنفيذ مشاريع متنوعة تشمل التشطيبات الداخلية، الترميمات، أعمال الدهانات والجبس بورد، ورق جدران، وجميع الأعمال الداخلية والخارجية.</p>
+        <ul class="about-list">
+          <li><i class="fas fa-check-circle"></i> خبرة أكثر من 15 سنة في المجال</li>
+          <li><i class="fas fa-check-circle"></i> فريق عمل متخصص ومحترف</li>
+          <li><i class="fas fa-check-circle"></i> أسعار تنافسية وضمان على الأعمال</li>
+          <li><i class="fas fa-check-circle"></i> تنفيذ بأحدث التصاميم العصرية</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- الخدمات -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-title">
+      <h3>خدماتنا</h3>
+      <p>نقدم باقة متكاملة من الخدمات الاحترافية</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-img" style="background-image: url('assets/images/p2.jpg')"></div>
+        <div class="service-body">
+          <h4><i class="fas fa-paint-roller" style="color:var(--primary)"></i> دهانات داخلية وخارجية</h4>
+          <p>جميع أنواع الدهانات الحديثة بأفضل الماركات وألوان متنوعة تناسب جميع الأذواق</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-img" style="background-image: url('assets/images/p3.jpg')"></div>
+        <div class="service-body">
+          <h4><i class="fas fa-layer-group" style="color:var(--primary)"></i> جبس بورد</h4>
+          <p>تصميم وتنفيذ ديكورات الجبس بورد للأسقف والجدران بأشكال عصرية وحديثة</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-img" style="background-image: url('assets/images/p4.jpg')"></div>
+        <div class="service-body">
+          <h4><i class="fas fa-scroll" style="color:var(--primary)"></i> ورق جدران</h4>
+          <p>تركيب جميع أنواع ورق الجدران ثلاثي الأبعاد والكلاسيكي بتصاميم رائعة</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-img" style="background-image: url('assets/images/p2.jpg')"></div>
+        <div class="service-body">
+          <h4><i class="fas fa-tools" style="color:var(--primary)"></i> ترميمات وتشطيبات</h4>
+          <p>ترميم المنازل والفلل بالكامل وتجديدها لتظهر بأفضل حُلَّة</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-img" style="background-image: url('assets/images/p3.jpg')"></div>
+        <div class="service-body">
+          <h4><i class="fas fa-spray-can" style="color:var(--primary)"></i> ديكورات حديثة</h4>
+          <p>تنفيذ أحدث صيحات الديكور العصري للمنازل والمكاتب والمحلات التجارية</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-img" style="background-image: url('assets/images/p4.jpg')"></div>
+        <div class="service-body">
+          <h4><i class="fas fa-home" style="color:var(--primary)"></i> فلل وقصور</h4>
+          <p>تنفيذ ديكورات فاخرة للفلل والقصور بلمسات راقية ومتميزة</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- الفيديوهات -->
+<section class="section videos" id="videos">
+  <div class="container">
+    <div class="section-title">
+      <h3>أعمالنا بالفيديو</h3>
+      <p>شاهد نماذج من أعمالنا المنفذة في الطائف - تم ربط جميع الفيديوهات محلياً لتعمل بشكل مباشر بعد رفع الموقع على GitHub Pages</p>
+    </div>
+    <div class="videos-grid">
+
+      <div class="video-box">
+        <video controls preload="metadata" playsinline poster="assets/images/p2.jpg">
+          <source src="assets/videos/v1.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو
+        </video>
+        <div class="video-caption">عرض تنفيذ رقم 1</div>
+      </div>
+
+      <div class="video-box">
+        <video controls preload="metadata" playsinline poster="assets/images/p3.jpg">
+          <source src="assets/videos/v2.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو
+        </video>
+        <div class="video-caption">عرض تنفيذ رقم 2</div>
+      </div>
+
+      <div class="video-box">
+        <video controls preload="metadata" playsinline poster="assets/images/p4.jpg">
+          <source src="assets/videos/v3.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو
+        </video>
+        <div class="video-caption">عرض تنفيذ رقم 3</div>
+      </div>
+
+      <div class="video-box">
+        <video controls preload="metadata" playsinline poster="assets/images/p2.jpg">
+          <source src="assets/videos/v4.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو
+        </video>
+        <div class="video-caption">عرض تنفيذ رقم 4</div>
+      </div>
+
+      <div class="video-box">
+        <video controls preload="metadata" playsinline poster="assets/images/p3.jpg">
+          <source src="assets/videos/v5.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو
+        </video>
+        <div class="video-caption">عرض تنفيذ رقم 5</div>
+      </div>
+
+      <div class="video-box">
+        <video controls preload="metadata" playsinline poster="assets/images/p4.jpg">
+          <source src="assets/videos/v6.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو
+        </video>
+        <div class="video-caption">عرض تنفيذ رقم 6</div>
+      </div>
+
+      <div class="video-box">
+        <video controls preload="metadata" playsinline poster="assets/images/p2.jpg">
+          <source src="assets/videos/v7.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو
+        </video>
+        <div class="video-caption">عرض تنفيذ رقم 7</div>
+      </div>
+
+      <div class="video-box">
+        <video controls preload="metadata" playsinline poster="assets/images/p3.jpg">
+          <source src="assets/videos/v8.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو
+        </video>
+        <div class="video-caption">عرض تنفيذ رقم 8</div>
+      </div>
+
+      <div class="video-box">
+        <video controls preload="metadata" playsinline poster="assets/images/p4.jpg">
+          <source src="assets/videos/v9.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو
+        </video>
+        <div class="video-caption">عرض تنفيذ رقم 9</div>
+      </div>
+
+      <div class="video-box">
+        <video controls preload="metadata" playsinline poster="assets/images/p2.jpg">
+          <source src="assets/videos/v10.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو
+        </video>
+        <div class="video-caption">عرض تنفيذ رقم 10</div>
+      </div>
+
+      <div class="video-box">
+        <video controls preload="metadata" playsinline poster="assets/images/p3.jpg">
+          <source src="assets/videos/v11.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو
+        </video>
+        <div class="video-caption">عرض تنفيذ رقم 11</div>
+      </div>
+
+      <div class="video-box">
+        <video controls preload="metadata" playsinline poster="assets/images/p4.jpg">
+          <source src="assets/videos/v12.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو
+        </video>
+        <div class="video-caption">عرض تنفيذ رقم 12</div>
+      </div>
+
+      <div class="video-box">
+        <video controls preload="metadata" playsinline poster="assets/images/p2.jpg">
+          <source src="assets/videos/v13.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو
+        </video>
+        <div class="video-caption">عرض تنفيذ رقم 13</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- إحصائيات -->
+<section class="section stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <i class="fas fa-home"></i>
+        <h4>+500</h4>
+        <p>مشروع منجز</p>
+      </div>
+      <div class="stat-item">
+        <i class="fas fa-users"></i>
+        <h4>+450</h4>
+        <p>عميل سعيد</p>
+      </div>
+      <div class="stat-item">
+        <i class="fas fa-award"></i>
+        <h4>+15</h4>
+        <p>سنة خبرة</p>
+      </div>
+      <div class="stat-item">
+        <i class="fas fa-tools"></i>
+        <h4>24/7</h4>
+        <p>دعم متواصل</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- تواصل -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-title">
+      <h3>تواصل معنا</h3>
+      <p>نحن في خدمتكم على مدار الساعة</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>معلومات التواصل</h3>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <strong>الهاتف</strong><br>
+            <a href="tel:+966554374134">+966 55 437 4134</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-whatsapp"></i>
+          <div>
+            <strong>واتساب</strong><br>
+            <a href="https://wa.me/966554374134">+966 55 437 4134</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <strong>العنوان</strong><br>
+            الطائف - المملكة العربية السعودية
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-clock"></i>
+          <div>
+            <strong>أوقات العمل</strong><br>
+            يومياً من 8 صباحاً إلى 11 مساءً
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h3>أرسل لنا رسالة</h3>
+        <form onsubmit="sendWhats(event)">
+          <div class="form-group">
+            <input type="text" id="cname" placeholder="الاسم الكامل" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="cphone" placeholder="رقم الجوال" required>
+          </div>
+          <div class="form-group">
+            <textarea id="cmsg" placeholder="رسالتك..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center">
+            <i class="fab fa-whatsapp"></i> إرسال عبر واتساب
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- الفوتر -->
+<footer>
+  <div class="container">
+    <div class="logo" style="justify-content:center">
+      <div class="logo-icon"><i class="fas fa-paint-roller"></i></div>
+      <div class="logo-text">
+        <h1 style="color:white">أبو محمد</h1>
+        <span>معلم دهانات وديكورات الطائف</span>
+      </div>
+    </div>
+    <div class="social">
+      <a href="https://wa.me/966554374134"><i class="fab fa-whatsapp"></i></a>
+      <a href="tel:+966554374134"><i class="fas fa-phone"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-snapchat"></i></a>
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+    </div>
+    <div class="copyright">
+      © 2026 <strong>جميع الحقوق محفوظة لأبو محمد معلم دهانات وديكورات الطائف</strong><span class="legal-note">يُمنع نسخ أو إعادة استخدام أو تطوير محتوى هذا الموقع أو وسائطه أو تصميمه إلا بعد الحصول على إذن مسبق من أصحاب الحقوق.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- زر واتساب عائم -->
+<a href="https://wa.me/966554374134?text=السلام عليكم، أود الاستفسار عن خدماتكم" class="whatsapp-float">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<script>
+function sendWhats(e) {
+  e.preventDefault();
+  const name = document.getElementById('cname').value;
+  const phone = document.getElementById('cphone').value;
+  const msg = document.getElementById('cmsg').value;
+  const text = `الاسم: ${name}%0Aالجوال: ${phone}%0Aالرسالة: ${msg}`;
+  window.open(`https://wa.me/966554374134?text=${text}`, '_blank');
+  // Clear form
+  document.querySelector('form').reset();
+}
+</script>
+
+</body>
+</html>
