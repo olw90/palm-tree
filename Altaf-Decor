@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معلم دهانات الطاف | الرئيسية</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --gold: #D4AF37; --black: #0a0a0a; }
+        body { margin: 0; font-family: 'Times New Roman', serif; background: var(--black); color: white; text-align: center; }
+        header { padding: 20px; border-bottom: 2px solid var(--gold); display: flex; justify-content: space-around; background: #111; position: sticky; top: 0; z-index: 100; }
+        header a { color: var(--gold); text-decoration: none; font-weight: bold; }
+        .hero { height: 60vh; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://flowbit-848effb22be6.herokuapp.com/dl/55261/photo-2026-05-04_20-29-38.jpg?code=fed5cbdf94e1ab0fc6c43eac-5905562720'); background-size: cover; background-position: center; display: flex; flex-direction: column; justify-content: center; }
+        .hero h1 { font-size: 3rem; color: var(--gold); text-shadow: 2px 2px 10px #000; }
+        .img-fluid { width: 100%; max-width: 900px; border-radius: 15px; border: 1px solid var(--gold); margin: 30px auto; display: block; }
+        footer { padding: 30px; border-top: 1px solid var(--gold); margin-top: 50px; font-size: 0.9rem; color: var(--gold); }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">الرئيسية</a>
+        <a href="gallery.html">معرض الأعمال</a>
+        <a href="contact.html">اتصل بنا</a>
+    </header>
+    <section class="hero">
+        <h1>إتقان، فخامة، وخبرة سنين</h1>
+        <p>نحول جدران منزلك في الطائف إلى تحف فنية</p>
+    </section>
+    <div style="padding: 20px;">
+        <img src="https://flowbit-848effb22be6.herokuapp.com/dl/55263/photo-2026-05-04_20-31-09.jpg?code=42f0494c890039a67d7b701d-5905562720" class="img-fluid" alt="إحصائيات النجاح">
+    </div>
+    <footer>حقوق التصميم محفوظة © 2026</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض الأعمال | الطاف</title>
+    <style>
+        :root { --gold: #D4AF37; --black: #0d0d0d; }
+        body { background: var(--black); color: white; text-align: center; font-family: sans-serif; margin: 0; }
+        header { padding: 20px; border-bottom: 2px solid var(--gold); display: flex; justify-content: space-around; background: #111; }
+        header a { color: var(--gold); text-decoration: none; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; padding: 30px; }
+        .card { border: 1px solid var(--gold); border-radius: 10px; overflow: hidden; background: #151515; }
+        .card video { width: 100%; display: block; height: 400px; object-fit: cover; }
+        h2 { color: var(--gold); margin: 30px 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">الرئيسية</a>
+        <a href="gallery.html">معرض الأعمال</a>
+        <a href="contact.html">اتصل بنا</a>
+    </header>
+    <h2>إبداعاتنا المكتملة</h2>
+    <div class="gallery-grid">
+        <div class="card"><video controls preload="none"><source src="https://flowbit-848effb22be6.herokuapp.com/dl/53885/video-2026-05-03_01-48-23.mp4?code=8b8c2bb689fbe05055ab5997-5905562720" type="video/mp4"></video></div>
+        <div class="card"><video controls preload="none"><source src="https://flowbit-848effb22be6.herokuapp.com/dl/53886/video-2026-05-03_01-50-52.mp4?code=2b697201b26972c625c0fddd-5905562720" type="video/mp4"></video></div>
+        <div class="card"><video controls preload="none"><source src="https://flowbit-848effb22be6.herokuapp.com/dl/53887/video-2026-05-03_01-51-41.mp4?code=f3c23c71c565927a2a17ea06-5905562720" type="video/mp4"></video></div>
+        <div class="card"><video controls preload="none"><source src="https://flowbit-848effb22be6.herokuapp.com/dl/53888/video-2026-05-03_01-52-10.mp4?code=475cf1275b34779ff0018dd2-5905562720" type="video/mp4"></video></div>
+        <div class="card"><video controls preload="none"><source src="https://flowbit-848effb22be6.herokuapp.com/dl/53889/video-2026-05-03_01-52-59.mp4?code=ae004e343c5d46d23ea9940e-5905562720" type="video/mp4"></video></div>
+        <div class="card"><video controls preload="none"><source src="https://flowbit-848effb22be6.herokuapp.com/dl/53890/video-2026-05-03_01-53-28.mp4?code=ba6d684c28664cc05744b306-5905562720" type="video/mp4"></video></div>
+        <div class="card"><video controls preload="none"><source src="https://flowbit-848effb22be6.herokuapp.com/dl/53891/video-2026-05-03_01-53-53.mp4?code=dfac1d93118a3c7db7fdccea-5905562720" type="video/mp4"></video></div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا | الطاف</title>
+    <style>
+        :root { --gold: #D4AF37; --black: #0a0a0a; }
+        body { background: var(--black); color: white; text-align: center; font-family: sans-serif; margin: 0; }
+        header { padding: 20px; border-bottom: 2px solid var(--gold); display: flex; justify-content: space-around; background: #111; }
+        header a { color: var(--gold); text-decoration: none; }
+        .content { padding: 40px 5%; }
+        .process-img { width: 100%; max-width: 850px; border: 1px solid var(--gold); border-radius: 15px; margin-bottom: 40px; }
+        .wa-btn { background: #25d366; color: white; padding: 18px 40px; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 1.2rem; display: inline-block; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4); }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">الرئيسية</a>
+        <a href="gallery.html">معرض الأعمال</a>
+        <a href="contact.html">اتصل بنا</a>
+    </header>
+    <div class="content">
+        <h2 style="color: var(--gold);">كيف نحقق حلمك؟</h2>
+        <img src="https://flowbit-848effb22be6.herokuapp.com/dl/55262/photo-2026-05-04_20-30-42.jpg?code=65ed7b98710a414d171c7dd3-5905562720" class="process-img" alt="خطوات العمل">
+        <div style="margin-top: 30px;">
+            <p style="font-size: 1.2rem; margin-bottom: 20px;">جاهز للبدء؟ تواصل معنا الآن عبر الواتساب</p>
+            <a href="https://wa.me/966554374134" class="wa-btn">أرسل رسالة الآن</a>
+        </div>
+    </div>
+</body>
+</html>
